@@ -1,0 +1,68 @@
+.contact {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #f9fafc;
+  .banner {
+    position: relative;
+    height: 420px;
+    color: #eee;
+    background-image: url('../img/contact_banner.jpg');
+    background-position: 50% 0;
+    background-size: cover;
+    span {
+      position: absolute;
+      left: 50%;
+    }
+    .border {
+      bottom: 90px;
+      width: 98px;
+      height: 174px;
+      transform: translate(-580px);
+      background-image: url('../img/kuang.png');
+      background-position: -7px -7px;
+    }
+    .title {
+      bottom: 180px;
+      width: 290px;
+      height: 24px;
+      background-image: url('../img/map_title.png');
+      background-position: -6px -6px;
+      font-size: 24px;
+    }
+    .sub {
+      bottom: 160px;
+      width: 110px;
+      height: 16px;
+      background-image: url('../img/sub_title.png');
+      background-position: -5px -5px;
+      font-size: 12px;
+    }
+    .title, .sub {
+      display: block;
+      overflow: hidden;
+      transform: translate(-560px);
+      text-indent: 300px;
+    }
+  }
+  .header {
+    width: 100%;
+    padding: 80px 0 60px;
+    text-align: center;
+    color: #999;
+    h1 {
+      margin: 8px 0;
+      font-size: 26px;
+    }
+    p {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+  }
+  .wk-contact-map {
+    width: 1190px;
+    height: 500px;
+    margin: 0 auto 80px;
+    background-color: #eee;
+  }
+}

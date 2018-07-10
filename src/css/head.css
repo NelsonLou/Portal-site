@@ -1,0 +1,80 @@
+#header {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#logo {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 70px;
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  a {
+    display: block;
+    height: 100%;
+    text-indent: 20em;
+  }
+}
+
+#menu {
+  position: fixed;
+  z-index: 70;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  display: inline-block;
+  overflow: hidden;
+  height: 30px;
+  margin: 18px 10px;
+  transition: all .3s;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#menu li a {
+  position: relative;
+  bottom: 0;
+  display: block;
+  padding: 0 18px;
+  transition: all .3s;
+  text-decoration: none;
+  color: #000;
+  line-height: 30px;
+  span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+#menu li.active {
+  background: #02b3ee;
+  a {
+    bottom: 30px;
+    color: #fff;
+  }
+  a:hover {
+    color: #000;
+  }
+}
+
+#menu li:hover {
+  background: rgba(255, 255, 255, 0.8);
+  a {
+    bottom: 30px;
+  }
+}

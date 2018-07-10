@@ -1,0 +1,81 @@
+extends ./layout.pug
+
+block styles
+  link(rel='stylesheet', href='../css/news-list.css')
+
+block title
+  title 宁波维凯网络科技
+
+block content
+  include ./head.pug
+  .news
+    .banner
+      span.border
+      span.title NEWS INFORMATION
+      span.sub WEIKAI NETWORK
+    .header
+      h1 NEWS
+      p Weknet News Information
+    .wk-news
+      ul.wk-news-list
+        li.wk-news-item
+          a(href='./news-detail.html')
+            h2 weknet网站后台初步完成，已经进入测试阶段。
+            p.wk-news-des 维凯网络科技有限公司是一家自主研发互联网科技软件以及新平台的创新型互联网公司。公司以四点燎原之火，点燃我们的雄心壮志，一颗坚韧之心......
+            .wk-news-date
+              span 06-08
+              | 2017
+          .wk-news-bg
+        li.wk-news-item
+          a(href='#')
+            h2 weknet网站后台初步完成，已经进入测试阶段。
+            p.wk-news-des 维凯网络科技有限公司是一家自主研发互联网科技软件以及新平台的创新型互联网公司。公司以四点燎原之火，点燃我们的雄心壮志，一颗坚韧之心......
+            .wk-news-date
+              span 06-08
+              | 2017
+          .wk-news-bg
+        li.wk-news-item
+          a(href='#')
+            h2 weknet网站后台初步完成，已经进入测试阶段。
+            p.wk-news-des 维凯网络科技有限公司是一家自主研发互联网科技软件以及新平台的创新型互联网公司。公司以四点燎原之火，点燃我们的雄心壮志，一颗坚韧之心......
+            .wk-news-date
+              span 06-08
+              | 2017
+          .wk-news-bg
+        li.wk-news-item
+          a(href='#')
+            h2 weknet网站后台初步完成，已经进入测试阶段。
+            p.wk-news-des 维凯网络科技有限公司是一家自主研发互联网科技软件以及新平台的创新型互联网公司。公司以四点燎原之火，点燃我们的雄心壮志，一颗坚韧之心......
+            .wk-news-date
+              span 06-08
+              | 2017
+          .wk-news-bg
+        li.wk-news-item
+          a(href='#')
+            h2 weknet网站后台初步完成，已经进入测试阶段。
+            p.wk-news-des 维凯网络科技有限公司是一家自主研发互联网科技软件以及新平台的创新型互联网公司。公司以四点燎原之火，点燃我们的雄心壮志，一颗坚韧之心......
+            .wk-news-date
+              span 06-08
+              | 2017
+          .wk-news-bg
+    ul.pagination
+      li
+        a(href='#') «
+      li
+        a(href='#') 1
+      li
+        a.active(href='#') 2
+      li
+        a(href='#') 3
+      li
+        a(href='#') 4
+      li
+        a(href='#') 5
+      li
+        a(href='#') 6
+      li
+        a(href='#') 7
+      li
+        a(href='#') »
+
+  include ./foot.pug

@@ -1,0 +1,21 @@
+extends ./layout.pug
+
+block styles
+  link(rel='stylesheet', href='../css/contact-detail.css')
+
+block title
+  title 宁波维凯网络科技
+
+block content
+  include ./head.pug
+  .contact
+    .banner
+      span.border
+      span.title COMPANY ADDRESS
+      span.sub WEIKAI NETWORK
+    .header
+      h1 MAP
+      p Company Address
+    .wk-contact-map map address area
+
+  include ./foot.pug

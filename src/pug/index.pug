@@ -1,0 +1,332 @@
+extends ./layout.pug
+
+block styles
+  link(rel='stylesheet', href='../css/index.css')
+
+block title
+  title 宁波维凯网络科技
+
+block content
+  include ./head.pug
+  #fullpage
+    .section.home
+      .slide
+        .banner-cnt(style='color:#fff;text-align:left;')
+          h1 点创未来
+            span Weknet，对每一次点击负责
+          p
+            | 维凯网络科技有限公司是宁波一家大规模集中互联网优秀人才的企业，囊括JAVA开发、产品专员、PHP
+            br
+            | 开发、UI设计师、市场营销、WEB前端等各方面专业领域的人才。
+            br
+            | 维凯网络秉着“点创未来 WE CAN”的宗旨，承诺为客户的每一次点击负责
+          p(style='text-align:right;')
+            a(href='#services') 我们的服务 »
+      .slide
+        .banner-cnt(style='color:#333;')
+          h1 专业服务
+          p
+            | 我们专注用户体验设计服务，提供完善的商业研究、交互设计、视觉设计与APP开发，整体
+            br
+            | 解决方案。以对产品细节精益求精的态度打造客户最满意的产品。
+          h2 Weknet，服务，我们更专业
+          p
+            a(href='#services') 我们的服务 »
+      .slide
+        .banner-cnt.img(style='color:#161616;')
+          a(href='#') 畅享购 »
+    .section.about
+      .header
+        h1 ABOUT
+        p About Weknet Technology
+      .wk-about-wrap
+        .pure-g.wk-about
+          .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit1
+            a.wk-about-cnt(href='./about-detail.html')
+              .wk-about-ico
+              h2 公司简介
+              //- p.wk-about-des 维凯科技是中国优质提供专业电子交易电子商务解决方案与服务的平台
+              //- .wk-about-bg
+          .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit2
+            a.wk-about-cnt(href='#')
+              .wk-about-ico
+              h2 文化和价值观
+              //- p.wk-about-des 维凯科技对产品持续研发，创造出多种完善的配套解决方案
+              //- .wk-about-bg
+          .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit3
+            a.wk-about-cnt(href='#')
+              .wk-about-ico
+              h2 业务范畴
+              //- p.wk-about-des 维凯科技拥有优质的技术团队，以及拥有丰富的研发经验
+              //- .wk-about-bg
+          .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit4
+            a.wk-about-cnt(href='#')
+              .wk-about-ico
+              h2 可持续发展
+              //- p.wk-about-des 拥有专业的咨询团队和外聘专家顾问为市场提供咨询培训和运营支持
+              //- .wk-about-bg
+        .pure-g.wk-about
+          .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit5
+            a.wk-about-cnt(href='#')
+              .wk-about-ico
+              h2 诚信合规
+              //- p.wk-about-des 维凯科技是中国优质提供专业电子交易电子商务解决方案与服务的平台
+              //- .wk-about-bg
+          .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit6
+            a.wk-about-cnt(href='#')
+              .wk-about-ico
+              h2 历史及里程碑
+              //- p.wk-about-des 维凯科技对产品持续研发，创造出多种完善的配套解决方案
+              //- .wk-about-bg
+          .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit7
+            a.wk-about-cnt(href='#')
+              .wk-about-ico
+              h2 领导团队
+              //- p.wk-about-des 维凯科技拥有优质的技术团队，以及拥有丰富的研发经验
+              //- .wk-about-bg
+          .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit8
+            a.wk-about-cnt(href='#')
+              .wk-about-ico
+              h2 常见问题
+              //- p.wk-about-des 拥有专业的咨询团队和外聘专家顾问为市场提供咨询培训和运营支持
+              //- .wk-about-bg
+      .wk-about-wrap-r
+        .slide
+          .pure-g.wk-about
+            .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit1
+              a.wk-about-cnt(href='#')
+                .wk-about-ico
+                h2 公司简介
+                //- p.wk-about-des 维凯科技是中国优质提供专业电子交易电子商务解决方案与服务的平台
+                //- .wk-about-bg
+            .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit2
+              a.wk-about-cnt(href='#')
+                .wk-about-ico
+                h2 文化和价值观
+                //- p.wk-about-des 维凯科技对产品持续研发，创造出多种完善的配套解决方案
+                //- .wk-about-bg
+            .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit3
+              a.wk-about-cnt(href='#')
+                .wk-about-ico
+                h2 业务范畴
+                //- p.wk-about-des 维凯科技拥有优质的技术团队，以及拥有丰富的研发经验
+                //- .wk-about-bg
+            .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit4
+              a.wk-about-cnt(href='#')
+                .wk-about-ico
+                h2 可持续发展
+                //- p.wk-about-des 拥有专业的咨询团队和外聘专家顾问为市场提供咨询培训和运营支持
+                //- .wk-about-bg
+        .slide
+          .pure-g.wk-about
+            .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit5
+              a.wk-about-cnt(href='#')
+                .wk-about-ico
+                h2 诚信合规
+                //- p.wk-about-des 维凯科技是中国优质提供专业电子交易电子商务解决方案与服务的平台
+                //- .wk-about-bg
+            .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit6
+              a.wk-about-cnt(href='#')
+                .wk-about-ico
+                h2 历史及里程碑
+                //- p.wk-about-des 维凯科技对产品持续研发，创造出多种完善的配套解决方案
+                //- .wk-about-bg
+            .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit7
+              a.wk-about-cnt(href='#')
+                .wk-about-ico
+                h2 领导团队
+                //- p.wk-about-des 维凯科技拥有优质的技术团队，以及拥有丰富的研发经验
+                //- .wk-about-bg
+            .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit8
+              a.wk-about-cnt(href='#')
+                .wk-about-ico
+                h2 常见问题
+                //- p.wk-about-des 拥有专业的咨询团队和外聘专家顾问为市场提供咨询培训和运营支持
+                //- .wk-about-bg
+    .section.culture
+      .header
+        h1 CULTURE
+        p Weknet Corporate Culture
+      .pure-g.wk-culture
+        .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit1
+          .wk-culture-cnt
+            .wk-culture-ico
+            h2 平等
+            p.wk-culture-des 平等对待每位员工，也要求员工平等待人，这里没有等级，伴随员工成长，并挖掘员工潜能
+        .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit2
+          .wk-culture-cnt
+            .wk-culture-ico
+            h2 开放
+            p.wk-culture-des 因为开放的精神，舞台永远比想象的要开阔，我们相信，只有这样，才能释放激情，推动创新
+        .pure-u-1.pure-u-lg-1-2.wk-item
+          .wk-culture-pic
+            img.pure-img(src='../img/culture_05.jpg' alt='平等,开放')
+        .pure-u-1.pure-u-lg-1-2.wk-item
+          .wk-culture-pic
+            img.pure-img(src='../img/culture_06.jpg' alt='共生,共赢')
+        .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit3
+          .wk-culture-cnt
+            .wk-culture-ico
+            h2 共生
+            p.wk-culture-des 尊重个性与梦想，用主人翁意识，集合向上的力量共同承担，一起分享，获得持续的生机
+        .pure-u-1-2.pure-u-lg-1-4.wk-item.wk-unit4
+          .wk-culture-cnt
+            .wk-culture-ico
+            h2 共赢
+            p.wk-culture-des 信奉“共赢，才能无所不赢”的团队精神让员工赢得价值，让顾客赢得好服务以求未来
+    .section.news
+      .header
+        h1 NEWS
+        p Weknet News Information
+      .wk-news
+        ul.wk-news-list
+          li.wk-news-item
+            a(href='#')
+              h2 weknet网站后台初步完成，已经进入测试阶段。
+              .wk-news-date
+                span 06-08
+                | 2017
+              p.wk-news-des 维凯网络科技有限公司是一家自主研发互联网科技软件以及新平台的创新型互联网公司。公司以四点燎原之火，点燃我们的雄心壮志，一颗坚韧之心......
+            .wk-news-bg
+          li.wk-news-item
+            a(href='#')
+              h2 weknet网站后台初步完成，已经进入测试阶段。
+              .wk-news-date
+                span 06-08
+                | 2017
+              p.wk-news-des 维凯网络科技有限公司是一家自主研发互联网科技软件以及新平台的创新型互联网公司。公司以四点燎原之火，点燃我们的雄心壮志，一颗坚韧之心......
+            .wk-news-bg
+          li.wk-news-item
+            a(href='#')
+              h2 weknet网站后台初步完成，已经进入测试阶段。
+              .wk-news-date
+                span 06-08
+                | 2017
+              p.wk-news-des 维凯网络科技有限公司是一家自主研发互联网科技软件以及新平台的创新型互联网公司。公司以四点燎原之火，点燃我们的雄心壮志，一颗坚韧之心......
+            .wk-news-bg
+        .wk-news-more
+          a(href='./news-list.html')
+            span.en MORE
+            span.zh 更多
+    .section.services
+      .header
+        h1 SERVICES
+        p Weknet Application Solution
+      .wk-services
+        .wk-item.wk-web-design
+          .wk-services-cnt
+            span.en Web Design
+            span.zh 网站
+        .wk-item.wk-online-retailers
+          .wk-services-cnt
+            span.en Online Retailers
+            span.zh 电商
+        .wk-item.wk-advertisement
+          .wk-services-cnt
+            span.en Advertisement
+            span.zh 广告
+        .wk-item.wk-mobile-terminal
+          .wk-services-cnt
+            span.en Mobile terminal
+            span.zh 移动端
+    .section.recruit
+      .header
+        h1 RECRUIT
+        p Company Recruitment
+      .wk-recruit
+        span.name.name1 Java开发
+        span.name.name2 产品专员
+        span.name.name3 PHP开发
+        span.name.name4 UI设计
+        span.name.name5 文案策划
+        span.name.name6 市场营销
+        span.name.name7 web前端
+        span.name.name8 实习生
+        a.avatar.avatar1(href='#')
+          img(src='../img/recruit_01.png' alt='Java开发')
+        a.avatar.avatar2(href='#')
+          img(src='../img/recruit_02.png' alt='产品专员')
+        a.avatar.avatar3(href='#')
+          img(src='../img/recruit_03.png' alt='PHP开发')
+        a.avatar.avatar4(href='#')
+          img(src='../img/recruit_04.png' alt='UI设计')
+        a.avatar.avatar5(href='#')
+          img(src='../img/recruit_05.png' alt='文案策划')
+        a.avatar.avatar6(href='#')
+          img(src='../img/recruit_06.png' alt='市场营销')
+        a.avatar.avatar7(href='#')
+          img(src='../img/recruit_07.png' alt='web前端')
+        a.avatar.avatar8(href='#')
+          img(src='../img/recruit_08.png' alt='实习生')
+        span.dot.dot1
+        span.dot.dot2
+        span.dot.dot3
+        span.dot.dot4
+        span.dot.dot5
+        span.dot.dot6
+        span.dot.dot7
+        span.dot.dot8
+      .wk-recruit-more
+        a(href='./recruit-list.html')
+          span.en MORE
+          span.zh 更多
+    .section.contact
+      .header
+        h1 CONTACT
+        p Contact Weknet
+      .wk-contact
+        .wk-contact-cnt
+          h2 宁波维凯网络科技有限公司
+          p Ningbo Weikai Network Technology Co., Ltd.
+          p 地址：宁波鄞州泰康中路500号国骅大厦12b04
+          p 邮编：315600
+          p 电话：400-8888888
+          p 网址：www.weknet.cn
+          p 邮箱：weknet@163.com
+          .link
+            a.qq(href='#')
+            a.wechat(href='#')
+            a.weibo(href='#')
+            a.map(href='./contact-detail.html')
+        .wk-contact-form
+          form(action='#', method='post', autocomplete='off')
+            p.error
+            .item
+              label(for='name') 姓名:
+              input.input#name(type='text', name='name', tabindex='1')
+            .item
+              label(for='mail') 邮箱:
+              input.input#mail(type='text', name='mail', tabindex='2')
+            .item
+              label(for='phone') 手机:
+              input.input#phone(type='text', name='phone', tabindex='3')
+            .item
+              label(for='message') 留言:
+              textarea.input#message(cols='40', rows='5', name='message', tabindex='4')
+            div
+              input.button(type='submit', value='提交', tabindex='5')
+        .wk-contact-bg
+
+  script(src='../js/jquery.min.js')
+  script(src='../js/formvalid.js')
+  script(src='../js/jquery.fullpage.min.js')
+  script.
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        menu: '#menu',
+        anchors: [
+          'home',
+          'about',
+          'culture',
+          'news',
+          'services',
+          'recruit',
+          'contact'
+        ],
+        navigation: true,
+        slidesNavigation: true
+      });
+      setInterval(function() {
+        $.fn.fullpage.moveSlideRight();
+      }, 5000);
+    });

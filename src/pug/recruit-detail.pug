@@ -1,0 +1,46 @@
+extends ./layout.pug
+
+block styles
+  link(rel='stylesheet', href='../css/recruit-detail.css')
+
+block title
+  title 宁波维凯网络科技
+
+block content
+  include ./head.pug
+  .recruit
+    .banner
+      span.border
+      span.title RECRUITMENT
+      span.sub WEIKAI NETWORK
+    .crumbs-box
+      .crumbs
+        a(href='#') 首页
+        | /
+        a(href='#') 招聘列表
+        | /
+        a(href='#') 岗位详情
+      .back
+        a(href='#') « 返回列表
+    .article
+      .head
+        img.avatar(src='../img/recruit_05.png' alt='Java开发')
+        span.name Java开发
+      .content
+        p 岗位职责：
+        p 1.根据开发流程进行设计，开发，测试，交付以满足需求；
+        p 2.确保代码和文档的高质高量；
+        p 3.模块的详细设计与分解；
+        p 4.编制模块概要设计与详细设计文档；
+        p 5.关键代码的编写，参与核心模块的测试工作，
+        p 任职要求：
+        p 1.计算机相关专业大专以上学历；
+        p 2.熟悉面对对象概念和J2EE，熟悉设计模式，熟悉JAVA主流开发框架（如：Spring、iBATIS、HiBernate等）；
+        p 3.熟练使用jquery进行页面开发；
+        p 4.熟练掌握数据库设计与管理，会使用Oracle、MySQL、SQLServer等主流数据库；
+        p 5.有代码洁癖，不能忍受垃圾代码；
+      .foot
+        p 简历请投递至
+        a(href='mailto:632269094@qq.com') 632269094@qq.com
+
+  include ./foot.pug

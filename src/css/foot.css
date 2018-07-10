@@ -1,0 +1,16 @@
+.footer {
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+  color: #666;
+  background-image: url('../img/footer.jpg');
+  background-position: 50% 0;
+  background-size: cover;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 48em) {
+  .footer {
+    padding: 20px 10px;
+  }
+}

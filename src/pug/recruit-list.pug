@@ -1,0 +1,57 @@
+extends ./layout.pug
+
+block styles
+  link(rel='stylesheet', href='../css/recruit-list.css')
+
+block title
+  title 宁波维凯网络科技
+
+block content
+  include ./head.pug
+  .recruit
+    .banner
+      span.border
+      span.title RECRUITMENT
+      span.sub WEIKAI NETWORK
+    .header
+      h1 RECRUIT
+      p Company Recruitment
+    .pure-g.wk-recruit
+      .pure-u-1-4.wk-item
+        a.avatar(href='./recruit-detail.html')
+          img(src='../img/recruit_05.png' alt='Java开发')
+        span.name Java开发
+      .pure-u-1-4.wk-item
+        a.avatar(href='#')
+          img(src='../img/recruit_01.png' alt='产品专员')
+        span.name 产品专员
+      .pure-u-1-4.wk-item
+        a.avatar(href='#')
+          img(src='../img/recruit_06.png' alt='PHP开发')
+        span.name PHP开发
+      .pure-u-1-4.wk-item
+        a.avatar(href='#')
+          img(src='../img/recruit_02.png' alt='UI设计')
+        span.name UI设计
+      .pure-u-1-4.wk-item
+        a.avatar(href='#')
+          img(src='../img/recruit_07.png' alt='文案策划')
+        span.name 文案策划
+      .pure-u-1-4.wk-item
+        a.avatar(href='#')
+          img(src='../img/recruit_03.png' alt='市场营销')
+        span.name 市场营销
+      .pure-u-1-4.wk-item
+        a.avatar(href='#')
+          img(src='../img/recruit_08.png' alt='web前端')
+        span.name web前端
+      .pure-u-1-4.wk-item
+        a.avatar(href='#')
+          img(src='../img/recruit_04.png' alt='实习生')
+        span.name 实习生
+    ul.wk-recruit-info
+      li 宁波鄞州泰康中路500号国骅大厦12b04
+      li HR: 400-8888888
+      li HR: 632269094@qq.com
+
+  include ./foot.pug
